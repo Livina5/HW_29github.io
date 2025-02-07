@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    background: linear-gradient(to right, rgb(255, 200, 200), rgb(41, 49, 51));
+    
+    
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    padding: 3px;
+    
+    
+}
+.title,
+.info_title{
+    font-family: "Oswald", serif;
+    color: #000000; ;
+}
+
+
+.info_text,
+.list{
+    font-family: "Quicksand", serif;
+    color:#00102f;
+    font-weight: 500;
+    font-size: 20px;
+}
+.info{
+    min-height: 200px;
+    
+    &_text{
+        color:#0d182f;
+
+    }
+}
+
+.list{
+    max-width: 500px;
+    margin: 0 auto;
+    
+    &_item{
+        list-style-type: none;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+}
