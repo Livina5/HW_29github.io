@@ -6,6 +6,10 @@
   background: linear-gradient(to right, rgb(255, 200, 200), rgb(41, 49, 51));
 }
 
+.body {
+  margin: 0;
+}
+
 .container {
   margin: 0 auto;
   text-align: center;
